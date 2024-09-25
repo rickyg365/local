@@ -59,5 +59,5 @@ form.addEventListener('submit', (e) => {
         form_data[c] = d;
     }
     addToStorage("main_data", form_data || "");
-    alert(`${form_data} saved`);
+    alert(`Form saved`);
 });
